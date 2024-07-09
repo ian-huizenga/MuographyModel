@@ -3,7 +3,7 @@ Simple muon detector, capapble of reconstructing hit location.
 Can simulate individual hits as well as make a background scan.
 Could also be improved to work as a muon tomograph.
 
-Only non pre-installed dependency is Pylandau.
+Only non pre-installed dependencies Pylandau(functions.py) and pyserial(comread.py).
 
 For more detail, read the report attached.
 
