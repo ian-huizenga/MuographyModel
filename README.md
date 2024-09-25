@@ -1,19 +1,9 @@
-Simple muon detector, capapble of reconstructing hit location.
+# Simple muon detector, capapble of reconstructing hit location with a precision of a few milimetres
 
-Can simulate individual hits as well as make a background scan.
-Could also be improved to work as a muon tomograph.
+This repository contains all the components used to create a novel type of muon detector, one which uses light yield on a rectangular scintillator instead of typical (time of flight)TOF or scintillating rods to determine position
 
-Only non pre-installed dependencies Pylandau(functions.py) and pyserial(comread.py).
+It also contains a model to verify said detector, as well as a research paper documenting the entire process.
 
-For more detail, read the report attached.
+Finally, a component list has been provided. The total cost comes out to roughly € 500,-. 
 
-
-
-An image of a reconstructed position on a plastic scintillator.
-
-![image](https://github.com/ian-huizenga/MuographyModel/assets/174703234/e3711da5-bb11-4e79-bc80-0f8cf9faf8c3)
-
-An image of a background radiation scan.
-
-![image](https://github.com/ian-huizenga/MuographyModel/assets/174703234/54cad5b7-1470-4aea-9e03-a56991a07700)
-
+This allows anyone to create a relatively cost effective way of precisely determining a muon impact location with an accuracy on the order of ~4mm.
